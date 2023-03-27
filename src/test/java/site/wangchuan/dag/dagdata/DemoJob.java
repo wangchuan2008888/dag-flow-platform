@@ -17,7 +17,7 @@ public class DemoJob extends JobRunner {
     private String name;
 
     public DemoJob(JobDAG graph, String name) {
-        super(graph, name);
+        super(name);
         this.name = name;
         this.timeout = 5000000;
     }

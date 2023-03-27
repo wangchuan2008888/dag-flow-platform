@@ -61,7 +61,7 @@ public class DagDrawTest {
         private String name;
 
         public DemoJob(JobDAG graph, String name) {
-            super(graph, name);
+            super(name);
             this.name = name;
             this.timeout = 5000;
         }

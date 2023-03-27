@@ -23,8 +23,7 @@ public class JobDAG {
 
     ImmutableGraph<JobRunner> graph;
 
-    final ImmutableGraph
-            .Builder<JobRunner> builder;
+    final ImmutableGraph.Builder<JobRunner> builder;
 
     private boolean fastMode = false;
 
